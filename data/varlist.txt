@@ -1,0 +1,219 @@
+FH.7000.[mikrotik].load_long
+FH.7000.[mikrotik].load_mid
+FH.7000.[mikrotik].load_short
+FH.7000.[mikrotik].ping
+FH.7000.[mikrotik].reserve
+FH.7000.[mikrotik].signal_noise
+FH.7000.[mikrotik].signal_power
+FH.7000.[mikrotik].signal_quality
+FH.7000.[mikrotik].uptime
+FH.7000.[mikrotik].wifi_state_1
+FH_ID_7000.AGV_ID
+FH_ID_7000.CRC
+FH_ID_7000.Content
+FH_ID_7000.Data
+FH_ID_7000.DataLength
+FH_ID_7000.Id
+FH_ID_7000.Length
+FH_ID_7000.Location_code
+FH_ID_7000.Number
+FH_ID_7000.Status
+FH_ID_7000.TimeStamp
+FH_ID_7000.ver
+FH_ID_6000.AGV_ID
+FH_ID_6000.CRC
+FH_ID_6000.Content
+FH_ID_6000.Data
+FH_ID_6000.DataLength
+FH_ID_6000.Id
+FH_ID_6000.Length
+FH_ID_6000.Location_code
+FH_ID_6000.Number
+FH_ID_6000.Status
+FH_ID_6000.TimeStamp 
+FH.6000.[CRENS] - Collaborative Robot Energy Signals.CR Battery cell voltage
+FH.6000.[CRENS] - Collaborative Robot Energy Signals.CR Battery value
+FH.6000.[CRENS] - Collaborative Robot Energy Signals.CR Cumulative energy consumption
+FH.6000.[CRENS] - Collaborative Robot Energy Signals.CR Momentary current consuption
+FH.6000.[CRENS] - Collaborative Robot Energy Signals.CR Momentary energy consumption
+FH.6000.[CRENS] - Collaborative Robot Energy Signals.CR Momentary power consumption
+FH.6000.[CRF] - Collaborative Robot Feedback.CR Automatic mode active
+FH.6000.[CRF] - Collaborative Robot Feedback.CR Manual mode active
+FH.6000.[CRF] - Collaborative Robot Feedback.CR Service mode active
+FH.6000.[CRF] - Collaborative Robot Feedback.CR Sleep mode active
+FH.6000.[CRF] - Collaborative Robot Feedback.CR calibration status done
+FH.6000.[CRF] - Collaborative Robot Feedback.CR calibration status in progress
+FH.6000.[CRF] - Collaborative Robot Feedback.CR calibration status not started
+FH.6000.[CRF] - Collaborative Robot Feedback.CR collision detected
+FH.6000.[CRF] - Collaborative Robot Feedback.CR enabled
+FH.6000.[CRF] - Collaborative Robot Feedback.CR error active
+FH.6000.[CRF] - Collaborative Robot Feedback.CR error code
+FH.6000.[CRF] - Collaborative Robot Feedback.CR gripper closed
+FH.6000.[CRF] - Collaborative Robot Feedback.CR gripper opened
+FH.6000.[CRF] - Collaborative Robot Feedback.CR program done trigger
+FH.6000.[CRF] - Collaborative Robot Feedback.CR running
+FH.6000.[CRF] - Collaborative Robot Feedback.CR safety circuit closed
+FH.6000.[CRF] - Collaborative Robot Feedback.CR warning active
+FH.6000.[CRF] - Collaborative Robot Feedback.CR warning code
+FH.6000.[CRF] - Collaborative Robot Feedback.CR work state busy active
+FH.6000.[CRF] - Collaborative Robot Feedback.CR work state error active
+FH.6000.[CRF] - Collaborative Robot Feedback.CR work state ready active
+FH.6000.[CRF] - Collaborative Robot Feedback.Current CR program number
+FH.6000.[CRF] - Collaborative Robot Feedback.External control over CR active
+FH.6000.[ENS] - Energy Signals.Battery cell voltage
+FH.6000.[ENS] - Energy Signals.Battery value
+FH.6000.[ENS] - Energy Signals.Cumulative energy consumption
+FH.6000.[ENS] - Energy Signals.Cumulative energy consumption_Uint
+FH.6000.[ENS] - Energy Signals.Momentary current consuption
+FH.6000.[ENS] - Energy Signals.Momentary energy consumption
+FH.6000.[ENS] - Energy Signals.Momentary power consumption
+FH.6000.[ES] EXCLUSIONS STATUSES.Front 3D sensor excluded
+FH.6000.[ES] EXCLUSIONS STATUSES.Front bluespot excluded
+FH.6000.[ES] EXCLUSIONS STATUSES.Front ultrasonic sensor excluded
+FH.6000.[ES] EXCLUSIONS STATUSES.LED excluded
+FH.6000.[ES] EXCLUSIONS STATUSES.Rear 3D sensor excluded
+FH.6000.[ES] EXCLUSIONS STATUSES.Rear bluespot excluded
+FH.6000.[ES] EXCLUSIONS STATUSES.Rear ultrasonic sensor excluded
+FH.6000.[ES] EXCLUSIONS STATUSES.Resource control excluded
+FH.6000.[ES] EXCLUSIONS STATUSES.Scanners muted
+FH.6000.[ES] EXCLUSIONS STATUSES.Trolley control excluded
+FH.6000.[ES] EXCLUSIONS STATUSES.Weight control excluded
+FH.6000.[G1BS] GROUP 1 - BRAKES SIGNALS.Brake Lock - automatic permission (#)
+FH.6000.[G1BS] GROUP 1 - BRAKES SIGNALS.Brake Lock - command on
+FH.6000.[G1BS] GROUP 1 - BRAKES SIGNALS.Brake Lock - executed
+FH.6000.[G1BS] GROUP 1 - BRAKES SIGNALS.Brake Lock - in progress (#)
+FH.6000.[G1BS] GROUP 1 - BRAKES SIGNALS.Brake Lock - manual permission
+FH.6000.[G1BS] GROUP 1 - BRAKES SIGNALS.Brake Lock - safety interlock
+FH.6000.[G1BS] GROUP 1 - BRAKES SIGNALS.Brake Release - automatic permission (#)
+FH.6000.[G1BS] GROUP 1 - BRAKES SIGNALS.Brake Release - command on
+FH.6000.[G1BS] GROUP 1 - BRAKES SIGNALS.Brake Release - executed
+FH.6000.[G1BS] GROUP 1 - BRAKES SIGNALS.Brake Release - in progress (#)
+FH.6000.[G1BS] GROUP 1 - BRAKES SIGNALS.Brake Release - manual permission
+FH.6000.[G1BS] GROUP 1 - BRAKES SIGNALS.Brake Release - safety interlock
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.ActualSpeed_L
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.Left drive activate - automatic permission (#)
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.Left drive activate - command on
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.Left drive activate - enable active
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.Left drive activate - executed
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.Left drive activate - in progress (#)
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.Left drive activate - manual permission
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.Left drive activate - safety interlock
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.Left drive stop - automatic permission (#)
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.Left drive stop - command on
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.Left drive stop - executed
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.Left drive stop - in progress (#)
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.Left drive stop - manual permission
+FH.6000.[G1LDS] GROUP 1 - LEFT DRIVE SIGNALS.Left drive stop - safety interlock
+FH.6000.[G2PAS] GROUP 2 - PIN ACTUATOR SIGNALS.Pin Down - automatic permission (#)
+FH.6000.[G2PAS] GROUP 2 - PIN ACTUATOR SIGNALS.Pin Down - command on
+FH.6000.[G2PAS] GROUP 2 - PIN ACTUATOR SIGNALS.Pin Down - executed
+FH.6000.[G2PAS] GROUP 2 - PIN ACTUATOR SIGNALS.Pin Down - in progress (#)
+FH.6000.[G2PAS] GROUP 2 - PIN ACTUATOR SIGNALS.Pin Down - manual permission
+FH.6000.[G2PAS] GROUP 2 - PIN ACTUATOR SIGNALS.Pin Down - safety interlock
+FH.6000.[G2PAS] GROUP 2 - PIN ACTUATOR SIGNALS.Pin Up - automatic permission (#)
+FH.6000.[G2PAS] GROUP 2 - PIN ACTUATOR SIGNALS.Pin Up - command on
+FH.6000.[G2PAS] GROUP 2 - PIN ACTUATOR SIGNALS.Pin Up - executed
+FH.6000.[G2PAS] GROUP 2 - PIN ACTUATOR SIGNALS.Pin Up - in progress (#)
+FH.6000.[G2PAS] GROUP 2 - PIN ACTUATOR SIGNALS.Pin Up - manual permission
+FH.6000.[G2PAS] GROUP 2 - PIN ACTUATOR SIGNALS.Pin Up - safety interlock
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.ActualSpeed_R
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.Right drive activate - automatic permission (#)
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.Right drive activate - command on
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.Right drive activate - enable active
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.Right drive activate - executed
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.Right drive activate - in progress (#)
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.Right drive activate - manual permission
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.Right drive activate - safety interlock
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.Right drive stop - automatic permission (#)
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.Right drive stop - command on
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.Right drive stop - executed
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.Right drive stop - in progress (#)
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.Right drive stop - manual permission
+FH.6000.[G2RDS] GROUP 2 - RIGHT DRIVE SIGNALS.Right drive stop - safety interlock
+FH.6000.[G3LPS] GROUP 3 - LIGTING PLATE SIGNALS.Lifting plate Down - automatic permission (#)
+FH.6000.[G3LPS] GROUP 3 - LIGTING PLATE SIGNALS.Lifting plate Down - command on
+FH.6000.[G3LPS] GROUP 3 - LIGTING PLATE SIGNALS.Lifting plate Down - executed
+FH.6000.[G3LPS] GROUP 3 - LIGTING PLATE SIGNALS.Lifting plate Down - in progress (#)
+FH.6000.[G3LPS] GROUP 3 - LIGTING PLATE SIGNALS.Lifting plate Down - manual permission
+FH.6000.[G3LPS] GROUP 3 - LIGTING PLATE SIGNALS.Lifting plate Down - safety interlock
+FH.6000.[G3LPS] GROUP 3 - LIGTING PLATE SIGNALS.Lifting plate Up - automatic permission (#)
+FH.6000.[G3LPS] GROUP 3 - LIGTING PLATE SIGNALS.Lifting plate Up - command on
+FH.6000.[G3LPS] GROUP 3 - LIGTING PLATE SIGNALS.Lifting plate Up - executed
+FH.6000.[G3LPS] GROUP 3 - LIGTING PLATE SIGNALS.Lifting plate Up - in progress (#)
+FH.6000.[G3LPS] GROUP 3 - LIGTING PLATE SIGNALS.Lifting plate Up - manual permission
+FH.6000.[G3LPS] GROUP 3 - LIGTING PLATE SIGNALS.Lifting plate Up - safety interlock
+FH.6000.[GS] GENERAL SIGNALS.Automatic Mode active
+FH.6000.[GS] GENERAL SIGNALS.Docking Mode active
+FH.6000.[GS] GENERAL SIGNALS.Fault Cancel
+FH.6000.[GS] GENERAL SIGNALS.Manual Mode active
+FH.6000.[GS] GENERAL SIGNALS.PLC diagnostic message active
+FH.6000.[GS] GENERAL SIGNALS.PLC fault active
+FH.6000.[GS] GENERAL SIGNALS.PLC warning Active
+FH.6000.[GS] GENERAL SIGNALS.Start Docking Process
+FH.6000.[IS] - Inclination Signals.X inclination
+FH.6000.[IS] - Inclination Signals.Y inclination
+FH.6000.[LED] LED STATUS.LED Active
+FH.6000.[LED] LED STATUS.LED RGB - External control active
+FH.6000.[LED] LED STATUS.LED RGB Strip 1 (left) - Red
+FH.6000.[LED] LED STATUS.LED RGB Strip 1 (left) \xe2\x80\x93 Blue
+FH.6000.[LED] LED STATUS.LED RGB Strip 1 (left) \xe2\x80\x93 Green
+FH.6000.[LED] LED STATUS.LED RGB Strip 2 (right) \xe2\x80\x93 Blue
+FH.6000.[LED] LED STATUS.LED RGB Strip 2 (right) \xe2\x80\x93 Green
+FH.6000.[LED] LED STATUS.LED RGB Strip 2 (right) \xe2\x80\x93 Red
+FH.6000.[LED] LED STATUS.LED status - active mode
+FH.6000.[NNCF] - Natural Navigation Command Feedback.3105 - Go to destination result - Destination ID
+FH.6000.[NNCF] - Natural Navigation Command Feedback.3105 - Go to destination result - Go to result
+FH.6000.[NNCF] - Natural Navigation Command Feedback.3106 - Pause drive result - Pause result
+FH.6000.[NNCF] - Natural Navigation Command Feedback.3107 - Resume drive result - Resume result
+FH.6000.[NNCF] - Natural Navigation Command Feedback.3108 - Abort drive result - Abort result
+FH.6000.[NNS] - Natural Navigation Signals.Current segment
+FH.6000.[NNS] - Natural Navigation Signals.Error status
+FH.6000.[NNS] - Natural Navigation Signals.Going to ID
+FH.6000.[NNS] - Natural Navigation Signals.Heading
+FH.6000.[NNS] - Natural Navigation Signals.Level
+FH.6000.[NNS] - Natural Navigation Signals.Natural Navigation state
+FH.6000.[NNS] - Natural Navigation Signals.Natural Navigation status
+FH.6000.[NNS] - Natural Navigation Signals.On route status
+FH.6000.[NNS] - Natural Navigation Signals.Position confidence
+FH.6000.[NNS] - Natural Navigation Signals.Position initialize status
+FH.6000.[NNS] - Natural Navigation Signals.Speed
+FH.6000.[NNS] - Natural Navigation Signals.Target reached
+FH.6000.[NNS] - Natural Navigation Signals.X-coordinate
+FH.6000.[NNS] - Natural Navigation Signals.Y-coordinate
+FH.6000.[ODS] - Odometry Signals.Cumulative distance right
+FH.6000.[ODS] - Odometry Signals.Momentary frequency of left encoder pulses
+FH.6000.[ODS] - Odometry Signals.Momentary frequency of right encoder pulses
+FH.6000.[OS] OTHER STATUSES.Front trolley sensor active
+FH.6000.[OS] OTHER STATUSES.Rear trolley sensor active
+FH.6000.[OS] OTHER STATUSES.Resource sensor active
+FH.6000.[SS] SAFETY SIGNALS.AGV velocity active zone
+FH.6000.[SS] SAFETY SIGNALS.Front 3D sensor activated
+FH.6000.[SS] SAFETY SIGNALS.Front E-Stops not pressed
+FH.6000.[SS] SAFETY SIGNALS.Front bumper not triggered
+FH.6000.[SS] SAFETY SIGNALS.Front scanner safety zone not violated
+FH.6000.[SS] SAFETY SIGNALS.Front scanner warning zone not violated
+FH.6000.[SS] SAFETY SIGNALS.Front ultrasonic sensors activated
+FH.6000.[SS] SAFETY SIGNALS.Rear 3D sensor activated
+FH.6000.[SS] SAFETY SIGNALS.Rear E-Stops not pressed
+FH.6000.[SS] SAFETY SIGNALS.Rear bumper not triggered
+FH.6000.[SS] SAFETY SIGNALS.Rear scanner safety zone not violated
+FH.6000.[SS] SAFETY SIGNALS.Rear scanner warning zone not violated
+FH.6000.[SS] SAFETY SIGNALS.Rear ultrasonic sensors activated
+FH.6000.[SS] SAFETY SIGNALS.Safety circuit closed
+FH.6000.[SS] SAFETY SIGNALS.Scanners active zones
+FH.6000.[SS] SAFETY SIGNALS.Scanners muted
+FH.6000.[TMP].Heading_x1000
+FH.6000.[TMP].Speed_x1000
+FH.6000.[TMP].X-coordinate_x1000
+FH.6000.[TMP].Y-coordinate_x1000
+FH.6000.[TS] TIME STAMP.Time stamp
+FH.6000.[WI] - WARNING INFORMATION.Warning Information - General Control - Fans Inactive
+FH.6000.[WI] - WARNING INFORMATION.Warning Information - Payload Control - Approaching Load Capacity
+FH.6000.[WI] - WARNING INFORMATION.Warning Information - Safety - Front Scanner Glass Contamination Da
+FH.6000.[WI] - WARNING INFORMATION.Warning Information - Safety - Front Scanner Warning Zone Active
+FH.6000.[WI] - WARNING INFORMATION.Warning Information - Safety - Rear Scanner Glass Contamination Dan
+FH.6000.[WI] - WARNING INFORMATION.Warning Information - Safety - Rear Scanner Warning Zone Active
+FH.6000.[WS] WEIGHT STATUSES.Weight statuses - front left strain gauge weight
+FH.6000.[WS] WEIGHT STATUSES.Weight statuses - front right strain gauge weight
+FH.6000.[WS] WEIGHT STATUSES.Weight statuses - rear left strain gauge weight
+FH.6000.[WS] WEIGHT STATUSES.Weight statuses - rear right strain gauge weight

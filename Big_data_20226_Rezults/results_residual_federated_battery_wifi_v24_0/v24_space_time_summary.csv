@@ -1,0 +1,4 @@
+agent_id,start,goal,path_length,reached_goal,reservation_conflicts_prevented
+client1,0,936,89,True,True
+client2,312,0,21,True,True
+client3,624,468,32,True,True
