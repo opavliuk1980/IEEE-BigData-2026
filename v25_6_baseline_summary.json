@@ -1,0 +1,12 @@
+{
+  "models_run": [
+    "AR5-Residual",
+    "EWMA-Residual",
+    "FedRidge-Adaptive",
+    "FedRidge-NoFallback"
+  ],
+  "lightgbm": "NOT_RUN",
+  "local_only": "RUN_PER_ORIGIN_AND_SESSION",
+  "leave_one_session_out": "RUN_PER_ORIGIN_AND_SESSION",
+  "paired_ablation_rows": 96
+}

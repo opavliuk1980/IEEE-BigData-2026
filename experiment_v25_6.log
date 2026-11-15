@@ -1,0 +1,7 @@
+2026-11-14 19:58:14,167 | INFO | Starting V25.6: federated one-step forecasting, baselines, calibration and audit.
+2026-11-14 19:58:14,909 | INFO | Configured active Wi-Fi routers: router1
+2026-11-14 19:58:26,560 | INFO | Origin 0.40 complete | fit 10.43s | inference 0.0606 ms/sample
+2026-11-14 19:58:37,661 | INFO | Origin 0.55 complete | fit 9.48s | inference 0.0671 ms/sample
+2026-11-14 19:58:46,186 | INFO | Origin 0.70 complete | fit 7.32s | inference 0.0373 ms/sample
+2026-11-14 19:58:56,134 | INFO | Origin 0.85 complete | fit 8.67s | inference 0.0339 ms/sample
+2026-11-14 19:58:56,666 | INFO | V25.6 completed. Results: /Users/olena/myProjects/bitbucket/agv_ann/ANNs/data/FL_WI_FI_CLIENTS/results_residual_federated_battery_wifi_v25_6

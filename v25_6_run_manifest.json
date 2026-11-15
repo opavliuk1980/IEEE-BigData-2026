@@ -1,0 +1,66 @@
+{
+  "version": "V25.6",
+  "seed": 42,
+  "seeds": [
+    42
+  ],
+  "python": "3.10.13",
+  "numpy": "1.24.3",
+  "pandas": "2.1.0",
+  "scipy": "1.11.2",
+  "sklearn": "1.3.0",
+  "input_sha256": {
+    "/Users/olena/myProjects/bitbucket/agv_ann/ANNs/data/FL_WI_FI_CLIENTS/varlist.txt": "bd12b9c7fe8c150606726e68294126da64bf71ad0bb1fcdb5a9ebc25e59afad6",
+    "/Users/olena/myProjects/bitbucket/agv_ann/ANNs/data/FL_WI_FI_CLIENTS/out_client1.csv": "6d9264f21096a0b69fc412813c249d2f6bb7c86154e067afef21bc029e5c3a09",
+    "/Users/olena/myProjects/bitbucket/agv_ann/ANNs/data/FL_WI_FI_CLIENTS/out_client2.csv": "a05cf6c432f7fc4b5d15b07e438d59e0108fd80813e0d4a80451a6fd6e221f4e",
+    "/Users/olena/myProjects/bitbucket/agv_ann/ANNs/data/FL_WI_FI_CLIENTS/out_client3.csv": "19121ad1a35df1ce9b715c0a3c22c827c664393a42543f62769ed9b6765c1390"
+  },
+  "origins": [
+    0.4,
+    0.55,
+    0.7,
+    0.85
+  ],
+  "test_span": 0.15,
+  "lookback": 12,
+  "wifi_lookback": 20,
+  "embargo": 21,
+  "alpha_grid": [
+    1.0,
+    3.0,
+    10.0,
+    30.0,
+    100.0,
+    300.0,
+    1000.0,
+    3000.0,
+    10000.0,
+    100000.0,
+    1000000.0,
+    10000000.0
+  ],
+  "feature_map_grid": [
+    "flat5",
+    "flat10",
+    "sum20"
+  ],
+  "centralized_stat_accumulation_dtype": "float64",
+  "centralized_stat_relative_error": "Frobenius norm ratio",
+  "cusum_threshold_multipliers": [
+    3.0,
+    4.0,
+    5.0
+  ],
+  "cusum_fallback_horizon_samples": 10,
+  "battery_aci_selection": "chronological_OOF_60_40_validation_test_untouched",
+  "ping_calibration_domain": "raw_ping_units_for_both_OOF_and_test",
+  "clients_are_recording_sessions_not_independent_AGVs": true,
+  "federation_emulated_in_single_process": true,
+  "planner_is_not_scientific_evidence": true,
+  "v25_6_added": [
+    "battery_local_only_vs_pooled",
+    "battery_leave_one_session_out",
+    "battery_aci_gamma_sensitivity"
+  ],
+  "session_generalization_is_not_cross_vehicle_validation": true
+}

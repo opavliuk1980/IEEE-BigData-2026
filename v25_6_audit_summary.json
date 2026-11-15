@@ -1,0 +1,65 @@
+{
+  "version": "V25.6",
+  "scope": "federated one-step battery/Wi-Fi telemetry forecasting",
+  "horizon": 1,
+  "clients_are_recording_sessions_not_independent_AGVs": true,
+  "federation_simulated_in_single_process": true,
+  "planner_executed_as_scientific_evidence": false,
+  "local_only_comparison": "IMPLEMENTED_BATTERY_PER_ORIGIN",
+  "leave_one_session_out": "IMPLEMENTED_BATTERY_PER_ORIGIN",
+  "lightgbm_baseline": "NOT_IMPLEMENTED_IN_THIS_BUILD",
+  "cusum_alarm_count_is_not_ground_truth_false_alarm_count": true,
+  "cusum_real_sequential_fallback_comparison": "IMPLEMENTED",
+  "battery_aci_chronological_validation": "IMPLEMENTED",
+  "cusum_allowance_nonnegative": true,
+  "cusum_threshold_multipliers": [
+    3.0,
+    4.0,
+    5.0
+  ],
+  "cusum_fallback_horizon_samples": 10,
+  "battery_aci_selection": "chronological_OOF_60_40_validation_test_untouched",
+  "wilson_ci_columns_only_empirical_coverage": true,
+  "ridge_alpha_grid": [
+    1.0,
+    3.0,
+    10.0,
+    30.0,
+    100.0,
+    300.0,
+    1000.0,
+    3000.0,
+    10000.0,
+    100000.0,
+    1000000.0,
+    10000000.0
+  ],
+  "centralized_unit_test": {
+    "passed": true,
+    "stat_relative_error_max": 1.9538310726564467e-16,
+    "prediction_relative_error": 1.0531630390456035e-15,
+    "seed": 2026,
+    "n_samples": 240,
+    "n_features": 8,
+    "n_targets": 3
+  },
+  "centralized_equivalence_rows": 1554,
+  "centralized_equivalence_all_pass": false,
+  "centralized_equivalence_status_counts": {
+    "PASS": 1488,
+    "FAIL": 66
+  },
+  "ping_calibration_domain": "raw_ping_units_for_both_OOF_and_test",
+  "cusum_threshold_training_origins": [
+    0.4,
+    0.55
+  ],
+  "cusum_evaluation_origins": [
+    0.7,
+    0.85
+  ],
+  "battery_session_generalization_rows": 36,
+  "battery_aci_gamma_diagnostic_rows": 60,
+  "session_generalization_is_not_cross_vehicle_validation": true,
+  "warning": "No real multi-AGV deployment or navigation benefit is evaluated. Battery ACI parameters are selected on chronological OOF validation; finite test coverage is not guaranteed under arbitrary drift. Real CUSUM alarms lack independent drift labels and are not false-alarm estimates. Inspect all CSVs before making claims."
+}

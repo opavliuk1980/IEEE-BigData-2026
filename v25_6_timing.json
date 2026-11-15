@@ -1,0 +1,22 @@
+[
+  {
+    "origin": 0.4,
+    "fit_seconds": 10.432149083004333,
+    "predict_ms_per_sample": 0.0606445209741905
+  },
+  {
+    "origin": 0.55,
+    "fit_seconds": 9.484347541001625,
+    "predict_ms_per_sample": 0.06714583543444079
+  },
+  {
+    "origin": 0.7,
+    "fit_seconds": 7.321153875091113,
+    "predict_ms_per_sample": 0.03728198590950752
+  },
+  {
+    "origin": 0.85,
+    "fit_seconds": 8.668915958027355,
+    "predict_ms_per_sample": 0.033870350587396666
+  }
+]

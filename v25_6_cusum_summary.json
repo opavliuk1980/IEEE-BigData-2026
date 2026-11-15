@@ -1,0 +1,78 @@
+{
+  "real_data_alarm_counts_are_not_false_alarm_counts": true,
+  "real_data_threshold_training_origins": [
+    0.4,
+    0.55
+  ],
+  "real_data_evaluation_origins": [
+    0.7,
+    0.85
+  ],
+  "real_data_evaluation": "model_vs_persistence_vs_sequential_CUSUM_persistence_fallback",
+  "fallback_horizon_samples": 10,
+  "threshold_multipliers": [
+    3.0,
+    4.0,
+    5.0
+  ],
+  "synthetic_injection_trials": {
+    "multiplier=3|effect=0": {
+      "false_alarms_per_1000_samples": 19.191666666666666,
+      "mean_false_alarms_per_trial": 23.03
+    },
+    "multiplier=3|effect=0.25": {
+      "detection_rate": 1.0,
+      "median_detection_delay_samples": 10.5,
+      "missed_detections": 0
+    },
+    "multiplier=3|effect=0.5": {
+      "detection_rate": 1.0,
+      "median_detection_delay_samples": 7.0,
+      "missed_detections": 0
+    },
+    "multiplier=3|effect=1": {
+      "detection_rate": 1.0,
+      "median_detection_delay_samples": 4.0,
+      "missed_detections": 0
+    },
+    "multiplier=4|effect=0": {
+      "false_alarms_per_1000_samples": 11.016666666666666,
+      "mean_false_alarms_per_trial": 13.22
+    },
+    "multiplier=4|effect=0.25": {
+      "detection_rate": 1.0,
+      "median_detection_delay_samples": 18.5,
+      "missed_detections": 0
+    },
+    "multiplier=4|effect=0.5": {
+      "detection_rate": 1.0,
+      "median_detection_delay_samples": 9.5,
+      "missed_detections": 0
+    },
+    "multiplier=4|effect=1": {
+      "detection_rate": 1.0,
+      "median_detection_delay_samples": 5.5,
+      "missed_detections": 0
+    },
+    "multiplier=5|effect=0": {
+      "false_alarms_per_1000_samples": 6.833333333333334,
+      "mean_false_alarms_per_trial": 8.2
+    },
+    "multiplier=5|effect=0.25": {
+      "detection_rate": 1.0,
+      "median_detection_delay_samples": 29.5,
+      "missed_detections": 0
+    },
+    "multiplier=5|effect=0.5": {
+      "detection_rate": 1.0,
+      "median_detection_delay_samples": 12.0,
+      "missed_detections": 0
+    },
+    "multiplier=5|effect=1": {
+      "detection_rate": 1.0,
+      "median_detection_delay_samples": 4.5,
+      "missed_detections": 0
+    }
+  },
+  "synthetic_trials_are_not_real_telemetry_evidence": true
+}

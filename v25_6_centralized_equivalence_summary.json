@@ -1,0 +1,24 @@
+{
+  "unit_test": {
+    "passed": true,
+    "stat_relative_error_max": 1.9538310726564467e-16,
+    "prediction_relative_error": 1.0531630390456035e-15,
+    "seed": 2026,
+    "n_samples": 240,
+    "n_features": 8,
+    "n_targets": 3
+  },
+  "status_counts": {
+    "PASS": 1488,
+    "FAIL": 66
+  },
+  "rows": 1554,
+  "all_pass": false,
+  "relative_statistic_error": "Frobenius norm ratio, accumulated in float64",
+  "prediction_error": "relative L2 norm on identical held-out probe rows",
+  "alpha_policy": "selected alpha plus predeclared sensitivity alpha values 1 and 1000",
+  "tolerances": {
+    "stat_relative": 1e-10,
+    "prediction_relative": 1e-07
+  }
+}
